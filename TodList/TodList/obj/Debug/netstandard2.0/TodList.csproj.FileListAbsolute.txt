@@ -1,0 +1,13 @@
+C:\Demos\TodList\TodList\TodList\bin\Debug\netstandard2.0\TodList.deps.json
+C:\Demos\TodList\TodList\TodList\bin\Debug\netstandard2.0\TodList.dll
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\TodList.csproj.CoreCompileInputs.cache
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\TodList.AssemblyInfoInputs.cache
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\TodList.AssemblyInfo.cs
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\Views\ToDoItemView.xaml.g.cs
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\Views\ToDoListView.xaml.g.cs
+C:\Demos\TodList\TodList\TodList\bin\Debug\netstandard2.0\TodList.pdb
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\TodList.dll
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\TodList.pdb
+C:\Demos\TodList\TodList\TodList\obj\Debug\netstandard2.0\TodList.csprojAssemblyReference.cache

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodList.Views.ToDoItemView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+              Text="Nombre:"/>
+            <Entry
+                Text="{Binding Nombre}"
+                Placeholder="Name"/>
+            <Label
+              Text="Notes:"/>
+            <Entry
+               Text="{Binding Notes}"
+                Placeholder="Notes"/>
+            <Label
+                Text="Done"/>
+            <Switch IsToggled="{Binding Done}"/>
+            
+            <!-- Botones-->
+            <Button
+                Text="Agregar nueva tarea"
+                Clicked="OnToDoItemAdded_Clicked"/>
+            <Button
+                Text="Eliminar"
+                x:Name="ButtonEliminar"
+                Clicked="ButtonEliminar_Clicked"/>
+            <Button
+                Text="Actualizar"
+                x:Name="ButtonActualizar"
+                Clicked="ButtonActualizar_Clicked"/>
+            <Button
+                x:Name="ButtonCancelar"
+                Text="Cancelar"
+                Clicked="ButtonCancelar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

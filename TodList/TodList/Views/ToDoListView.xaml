@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TodList"
+             Title="Tareas"
+             x:Class="TodList.Views.ToDoListView">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+            Text="+"
+            Clicked="OnItemAdded">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="Android" Value="plus.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <ListView
+            ItemSelected="ListViewItems_ItemSelected"
+           x:Name="ListViewItems">
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                        <StackLayout 
+                            Margin="20,0,0,0"
+                            Orientation="Horizontal"
+                            HorizontalOptions="FillAndExpand">
+                            <Label 
+                                Text="{Binding Nombre}"
+                                VerticalTextAlignment="Center"
+                                HorizontalOptions="StartAndExpand"/>
+                            <Image
+                                Source="check.png"
+                                HorizontalOptions="End"
+                                IsVisible="{Binding Done}"/>
+                        </StackLayout>
+                       
+                    </ViewCell>
+            </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
